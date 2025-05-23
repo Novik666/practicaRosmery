@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contáctanos para más información">
+    <title>Digital Solutions | Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="Digital Solutions Logo" width="150">
+            </a>
+            
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li><a href="services.html">Servicios</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html" class="btn-contact active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contact-hero" style="background-image: url('img/contact-bg.jpg');">
+        <div class="container">
+            <h1>Contáctanos</h1>
+            <p>Estamos listos para ayudarte en tu próximo proyecto</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-form">
+                <h2>Envíanos un mensaje</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nombre completo</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono (opcional)</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Servicio de interés</label>
+                        <select id="service" name="service">
+                            <option value="">Selecciona una opción</option>
+                            <option value="web">Diseño Web</option>
+                            <option value="app">Desarrollo de Apps</option>
+                            <option value="marketing">Marketing Digital</option>
+                            <option value="other">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar mensaje</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h2>Información de contacto</h2>
+                <div class="info-item">
+                    <h3>Dirección</h3>
+                    <p>Calle bolivar 123, Potosi, Bolivia</p>
+                </div>
+                <div class="info-item">
+                    <h3>Teléfono</h3>
+                    <p>+1 234 567 890</p>
+                </div>
+                <div class="info-item">
+                    <h3>Email</h3>
+                    <p>info@digitalsolutions.com</p>
+                </div>
+                <div class="info-item">
+                    <h3>Horario</h3>
+                    <p>Lunes a Viernes: 9:00 - 18:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
